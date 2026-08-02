@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BaseDatosSqlite</string>
+    <string name="tvTitle">Gestión de Usuarios</string>
+    <string name="etDocument">Documento:1001002323</string>
+    <string name="etNames">nombres del usuario</string>
+    <string name="etLastName">apellidos del usuario</string>
+    <string name="etUser">Usuario o correo</string>
+    <string name="etPassword">Contraseña</string>
+    <string name="btnRegister">Guardar</string>
+    <string name="btnClear">Borrar</string>
+    <string name="btnListar">Listar</string>
+    <string name="btnSearch">Buscar</string>
+</resources>
