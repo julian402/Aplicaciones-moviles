@@ -118,4 +118,23 @@ public class UserRepository {
         }
         return -1;
     }
+
+    public int updateUser(User user) {
+        ContentValues values = new ContentValues();
+        values.put(UserContract.COLUMN_NAMES, user.getNames());
+        values.put(UserContract.COLUMN_LAST_NAMES, user.getLastNames());
+        values.put(UserContract.COLUMN_USERNAME, user.getUser());
+        values.put(UserContract.COLUMN_PASSWORD, user.getPassword());
+
+        String whereClause = UserContract.COLUMN_DOCUMENT + " =?";
+        String[] whereArgs = {String.valueOf(user.getDocument())};
+
+        try {
+            SQLiteDatabase database = managerDataBase.getWritableDatabase();
+            return database.update(UserContract.TABlE_NAME, values, whereClause, whereArgs);
+        } catch (Exception e) {
+            Log.e(TAG, "ERROR AL ACTUALIZAR EL USUARIO", e);
+        }
+        return -1;
+    }
 }

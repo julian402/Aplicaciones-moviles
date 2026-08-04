@@ -6,8 +6,10 @@
     <string name="etLastName">apellidos del usuario</string>
     <string name="etUser">Usuario o correo</string>
     <string name="etPassword">Contraseña</string>
-    <string name="btnRegister">Guardar</string>
-    <string name="btnClear">Borrar</string>
+    <string name="btnRegister">Registrar</string>
+    <string name="btnDelete">Borrar</string>
     <string name="btnListar">Listar</string>
     <string name="btnSearch">Buscar</string>
+    <string name="btnClear">Limpiar</string>
+    <string name="btnUpdate">Editar</string>
 </resources>

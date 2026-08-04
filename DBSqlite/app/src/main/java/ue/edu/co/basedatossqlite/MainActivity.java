@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     private Button btnList;
     private Button btnDelete;
     private Button btnSearch;
+    private Button btnClear;
+    private Button btnUpdate;
     private User user;
 
     @Override
@@ -50,7 +52,14 @@ public class MainActivity extends AppCompatActivity {
         btnList.setOnClickListener(this::setListUsers);
         btnSearch.setOnClickListener(this::searchUserDB);
         btnDelete.setOnClickListener(this::deleteUserDB);
+        btnClear.setOnClickListener(this::clearFieldsDB);
+        btnUpdate.setOnClickListener(this::updateUserDB);
 
+    }
+
+    private void clearFieldsDB(View view){
+        clearFields();
+        listUsers.setAdapter(null);
     }
 
     //metodo para insertar en la db
@@ -146,6 +155,21 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    private void updateUserDB(View view){
+        getData(); // arma this.user con los datos actuales de los campos
+
+        UserRepository userRepository = new UserRepository(this.context);
+        int rowsAffected = userRepository.updateUser(this.user);
+
+        if (rowsAffected > 0) {
+            Toast.makeText(context, "Usuario actualizado", Toast.LENGTH_LONG).show();
+            clearFields();
+            listUsersDB(); // refresca la lista para ver el cambio
+        } else {
+            Toast.makeText(context, "No se pudo actualizar (verifica el documento)", Toast.LENGTH_LONG).show();
+        }
+    }
+
 
     private void initObjects(){
         this.context = getApplicationContext();
@@ -159,6 +183,8 @@ public class MainActivity extends AppCompatActivity {
         this.btnList = findViewById(R.id.btnListing);
         this.btnSearch = findViewById(R.id.btnSearch);
         this.btnDelete = findViewById(R.id.btnDelete);
+        this.btnClear = findViewById(R.id.btnClear);
+        this.btnUpdate = findViewById(R.id.btnUpdate);
 
 
     }

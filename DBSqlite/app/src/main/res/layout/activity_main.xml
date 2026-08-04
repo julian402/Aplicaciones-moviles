@@ -70,6 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:backgroundTint="@color/colorSave"
         android:text="@string/btnRegister" />
 
     <Button
@@ -77,6 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:backgroundTint="@color/colorList"
         android:text="@string/btnListar" />
     </TableRow>
 
@@ -89,21 +91,39 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="@string/btnClear" />
+        android:backgroundTint="@color/colorDelete"
+        android:text="@string/btnDelete" />
 
     <Button
         android:id="@+id/btnSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:backgroundTint="@color/colorSearch"
         android:text="@string/btnSearch" />
     </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
 
     <Button
         android:id="@+id/btnClear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorClear"
+        android:text="@string/btnClear" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorUpdate"
+        android:text="@string/btnUpdate" />
+    </TableRow>
 
     <ListView
         android:id="@+id/lvList"
