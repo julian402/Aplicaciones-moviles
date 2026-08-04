@@ -2,7 +2,7 @@ package ue.edu.co.basedatossqlite.entity;
 
 public class User {
 
-    private int document;
+    private long document;
     private String names;
     private String lastNames;
     private String user;
@@ -11,7 +11,7 @@ public class User {
 
     public User() {
     }
-    public User(String password, int document, String names, String lastNames, String user) {
+    public User(String password, long document, String names, String lastNames, String user) {
         this.password = password;
         this.document = document;
         this.names = names;
@@ -19,7 +19,7 @@ public class User {
         this.user = user;
     }
 
-    public User(byte status, String password, String user, String lastNames, String names, int document) {
+    public User(byte status, String password, String user, String lastNames, String names, long document) {
         this.status = status;
         this.password = password;
         this.user = user;
@@ -28,11 +28,11 @@ public class User {
         this.document = document;
     }
 
-    public int getDocument() {
+    public long getDocument() {
         return document;
     }
 
-    public void setDocument(int document) {
+    public void setDocument(long document) {
         this.document = document;
     }
 
@@ -83,8 +83,6 @@ public class User {
         sb.append(", names='").append(names).append('\'');
         sb.append(", lastNames='").append(lastNames).append('\'');
         sb.append(", user='").append(user).append('\'');
-        sb.append(", password='").append(password).append('\'');
-        sb.append(", status=").append(status);
         sb.append('}');
         return sb.toString();
     }

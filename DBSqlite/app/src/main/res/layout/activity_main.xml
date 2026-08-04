@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         >
     <Button
-        android:id="@+id/btnClear"
+        android:id="@+id/btnDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -98,6 +98,12 @@
         android:layout_weight="1"
         android:text="@string/btnSearch" />
     </TableRow>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
     <ListView
         android:id="@+id/lvList"
