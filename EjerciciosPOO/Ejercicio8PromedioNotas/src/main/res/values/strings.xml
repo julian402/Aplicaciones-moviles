@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ejercicio8PromedioNotas</string>
+    <string name="tvTitle">Promedio de Notas</string>
+    <string name="tvInstruccion">Un estudiante por línea:\nNombre: nota1, nota2, nota3</string>
+    <string name="etEstudiantes">Ana: 4.5, 3.8, 5.0</string>
+    <string name="btnCalcular">Calcular promedios</string>
+    <string name="tvResultado">Resultado</string>
+</resources>
