@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio2CalcularSueldo</string>
+    <string name="tvTitle">Caluladora de sueldo</string>
+    <string name="tvResultado"></string>
+    <string name="etHorasTrabajadas">Ingrese las horas trabajadas</string>
+    <string name="etPrecioHora">Ingrese el valor de la H/trabajo</string>
+    <string name="etDiasTrabajados">Ingrese los dias trabajados</string>
+    <string name="btnCalcular">Calcular</string>
+</resources>

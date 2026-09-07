@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Ejercicio1POO"
 include(":Ejercicio1Operaciones")
+include(":Ejercicio2CalcularSueldo")
