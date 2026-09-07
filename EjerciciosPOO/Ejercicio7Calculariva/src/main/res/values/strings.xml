@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejercicio7CalcularIva</string>
+    <string name="tvTitle">Cálculo de Compra con IVA</string>
+    <string name="etPrecios">Ingrese los precios separados por coma</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="tvResultado">Resultado</string>
+</resources>
