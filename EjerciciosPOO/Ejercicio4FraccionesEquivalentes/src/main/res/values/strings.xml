@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Ejercicio4FraccionesEquivalentes</string>
+    <string name="tvTitle">Fracciones Equivalentes</string>
+    <string name="tvFraccion1">Primera fracción</string>
+    <string name="tvFraccion2">Segunda fracción</string>
+    <string name="etNumerador1">Numerador</string>
+    <string name="etDenominador1">Denominador</string>
+    <string name="etNumerador2">Numerador</string>
+    <string name="etDenominador2">Denominador</string>
+    <string name="btnVerificar">Verificar</string>
+    <string name="tvResultado">Resultado</string>
 </resources>
