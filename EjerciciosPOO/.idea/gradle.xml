@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/Ejercicio2CalcularSueldo" />
             <option value="$PROJECT_DIR$/Ejercicio3SalarioParametros" />
             <option value="$PROJECT_DIR$/Ejercicio4FraccionesEquivalentes" />
+            <option value="$PROJECT_DIR$/Ejercicio5NumerosPrimos" />
+            <option value="$PROJECT_DIR$/Ejercicio6Fibonacci" />
           </set>
         </option>
       </GradleProjectSettings>

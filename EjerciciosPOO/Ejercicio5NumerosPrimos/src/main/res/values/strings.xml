@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejercicio5NumerosPrimos</string>
+    <string name="tvTitle">Números Primos</string>
+    <string name="etNumeros">Ingrese los números separados por coma</string>
+    <string name="btnAnalizar">Analizar</string>
+    <string name="tvResultado">Resultado</string>
+</resources>
