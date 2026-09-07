@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejercicio3SalarioParametros</string>
+    <string name="tvTitle">Calculadora de Salario Completo</string>
+    <string name="etSalario">Ingrese el salario base</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="tvResultado">Resultado</string>
+</resources>

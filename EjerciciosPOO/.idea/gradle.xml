@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Ejercicio1Operaciones" />
             <option value="$PROJECT_DIR$/Ejercicio2CalcularSueldo" />
+            <option value="$PROJECT_DIR$/Ejercicio3SalarioParametros" />
+            <option value="$PROJECT_DIR$/Ejercicio4FraccionesEquivalentes" />
           </set>
         </option>
       </GradleProjectSettings>
