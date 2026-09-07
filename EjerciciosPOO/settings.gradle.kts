@@ -23,4 +23,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Ejercicio1POO"
-include(":app")
+include(":Ejercicio1Operaciones")
